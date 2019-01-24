@@ -7,3 +7,5 @@ function distanceFromHqInBlocks(destination){
     return 42 - destination; 
   }
 } 
+
+function distanceFromHqInFe
