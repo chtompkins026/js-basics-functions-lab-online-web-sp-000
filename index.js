@@ -12,6 +12,10 @@ function distanceFromHqInFeet (destination) {
   return distanceFromHqInBlocks(destination) * 264; 
 }
 
-function distanceTravelledInFeet() { 
-  
+function distanceTravelledInFeet(d1, d2) { 
+  if (d1 >= d2) { 
+    return (d1 - d2) * 264 ;
+  } else { 
+    return (d2 - d1) * 264 ;
+  }
 }
